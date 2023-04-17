@@ -47,11 +47,11 @@ namespace homeworkFinal
 
             IWebElement usernameField = Driver.FindElement(By.Id("username"));
             usernameField.Clear();
-            usernameField.SendKeys("radoviks@gmail.com");
+            usernameField.SendKeys("");
 
             IWebElement passwordField = Driver.FindElement(By.Id("password"));
             passwordField.Clear();
-            passwordField.SendKeys("bombonki225@!");
+            passwordField.SendKeys("");
 
             IWebElement loggInButton = Driver.FindElement(By.CssSelector("button[translate='login.form.button']"));
             loggInButton.Click();
@@ -147,11 +147,11 @@ namespace homeworkFinal
 
             IWebElement usernameField2 = Driver.FindElement(By.Id("username"));
             usernameField2.Clear();
-            usernameField2.SendKeys("sandrar@gmail.com");
+            usernameField2.SendKeys("");
 
             IWebElement passwordField2 = Driver.FindElement(By.Id("password"));
             passwordField2.Clear();
-            passwordField2.SendKeys("mineralnavoda@!A");
+            passwordField2.SendKeys("");
 
             IWebElement logInButton = Driver.FindElement(By.CssSelector("button[translate='login.form.button']"));
             logInButton.Click();
@@ -208,11 +208,11 @@ namespace homeworkFinal
 
             IWebElement usernameField3 = Driver.FindElement(By.Id("username"));
             usernameField3.Clear();
-            usernameField3.SendKeys("radoviks@gmail.com");
+            usernameField3.SendKeys("");
 
             IWebElement passwordField3 = Driver.FindElement(By.Id("password"));
             passwordField3.Clear();
-            passwordField3.SendKeys("bombonki225@!");
+            passwordField3.SendKeys("");
 
             wait.Until(Expect.ElementIsVisible(By.CssSelector("button[translate='login.form.button']")));
             IWebElement loginButton = Driver.FindElement(By.CssSelector("button[translate='login.form.button']"));
